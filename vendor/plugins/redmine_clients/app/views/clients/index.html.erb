@@ -1,0 +1,19 @@
+<h2>Clients</h2>
+
+<table>
+<tr>
+<% @clients.each do |client| %>
+	<td><%= client[:id] %></td>
+	<td><%= client[:account_owner] %></td>
+	<td><%= client[:account_name] %></td>
+	<td><%= client[:arn] %></td>
+	<td><%= client[:contact_name] %></td>
+	<td><%= client[:executive] %></td>
+	<td><%= client[:industry] %></td>
+	<td><%= client[:email] %></td>
+	<td><%= client[:contact_number] %></td>
+	<td><%= client[:address] %></td>
+	<td><%= client[:city] %></td>
+<% end %>
+</tr>
+</table>

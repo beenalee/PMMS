@@ -1,0 +1,24 @@
+customer_title: Customer
+label_customer: Customer
+label_customer_plural: Customer List
+label_customer_information: Customer Information
+label_customer_edit_information: Editing Customer Information
+label_customer_assign_to_project: Assign Customer to Project
+label_customer_view: View
+label_customer_assign: Assign
+label_customer_list: List
+label_customer_new: New
+field_customer_account_owner: Account Owner
+field_customer_account_name: Account Name
+field_customer_arn: Account Reference Number (ARN)
+field_customer_contact_name: Contact Name
+field_customer_account_executive: Account Executive
+field_customer_industry: Industry
+field_customer_city: City
+field_customer_address: Address
+field_customer_phone: Phone
+field_customer_email: Email
+field_customer_website: Website
+field_customer_skype: Skype
+notice_successful_save: Saved
+notice_unsuccessful_save: Could not save

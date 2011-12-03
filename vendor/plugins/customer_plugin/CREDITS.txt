@@ -1,0 +1,12 @@
+Thanks go to the following people for patches and contributions:
+
+Eric Davis <edavis[AT]littlestreamsoftware[DOT]com>
+- Project Maintainer
+
+Michele Franzin
+- added Italian translation
+- UI fixes and improvements
+- refactorings
+
+Pau Garcia i Quiles
+- Catalan translation

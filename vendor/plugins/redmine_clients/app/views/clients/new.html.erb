@@ -1,0 +1,54 @@
+<h2>New Client</h2>
+
+<% form_for @client, :url => { :action => "create" } do |f| %>
+
+<h3>Account Information</h3>
+<table>
+<tr>
+	<td>Account Owner:</td>
+	<td><%= f.text_field :account_owner %></td>
+</tr>
+<tr>
+	<td>Account Name:</td>
+	<td><%= f.text_field :account_name %></td>
+</tr>
+<tr>
+	<td>Account Reference Number (ARN):</td>
+	<td><%= f.text_field :arn %></td>
+</tr>
+<tr>
+	<td>Contact Name:</td>
+	<td><%= f.text_field :contact_name %></td>
+</tr>
+<tr>
+	<td>Account Executive:</td>
+	<td><%= f.text_field :executive %></td>
+</tr>
+<tr>
+	<td>Industry:</td>
+	<td><%= f.text_field :industry %></td>
+</tr>
+</table>
+
+<h3>Address Information</h3>
+<table>
+<tr>
+	<td>Email Address:</td>
+	<td><%= f.text_field :email %></td>
+</tr>
+<tr>
+	<td>Contact Number:</td>
+	<td><%= f.text_field :contact_number %></td>
+</tr>
+<tr>
+	<td>Address:</td>
+	<td><%= f.text_field :address %></td>
+</tr>
+<tr>
+	<td>City:</td>
+	<td><%= f.text_field :city %></td>
+</tr>
+</table>
+
+	<%= f.submit %>
+<% end %>

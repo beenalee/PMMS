@@ -1,0 +1,40 @@
+<%= error_messages_for 'customer' %>
+
+<div class="box"> 
+  <p>
+    <%= f.text_field 'account_owner', :label=>l(:field_customer_account_owner) -%>
+  </p>
+  <p>
+    <%= f.text_field 'account_name', :label=>l(:field_customer_account_name) -%>
+  </p>
+  <p>
+    <%= f.text_field 'arn', :label=>l(:field_customer_arn) -%>
+  </p>
+  <p>
+    <%= f.text_field 'contact_name', :label=>l(:field_customer_contact_name) -%>
+  </p>
+  <p>
+    <%= f.text_field 'account_executive', :label=>l(:field_customer_account_executive) -%>
+  </p>
+  <p>
+    <%= f.text_field 'industry', :label=>l(:field_customer_industry) -%>
+  </p>
+  <p>
+    <%= f.text_field 'email', :label=>l(:field_customer_email) -%>
+  </p>
+  <p>
+    <%= f.text_field 'phone', :label=>l(:field_customer_phone) -%>
+  </p>
+  <p>
+    <%= f.text_area 'address', :label=>l(:field_customer_address), :rows => 5 -%>
+  </p>
+  <p>
+    <%= f.text_field 'city', :label=>l(:field_customer_city) -%>
+  </p>
+  <p>
+    <%= f.text_field 'website', :label=>l(:field_customer_website) -%>
+  </p>
+  <p>
+    <%= f.text_field 'skype_name', :label=>l(:field_customer_skype) -%>
+  </p>
+</div>

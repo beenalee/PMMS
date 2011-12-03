@@ -1,0 +1,7 @@
+--- 
+prefix: /redmine
+log_file: log/mongrel.log
+port: "3001"
+environment: production
+pid_file: tmp/pids/mongrel.pid
+servers: 2
