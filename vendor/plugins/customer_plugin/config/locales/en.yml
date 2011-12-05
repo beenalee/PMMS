@@ -17,7 +17,11 @@ en:
   field_customer_website: Website
   field_customer_skype: Skype
   field_customer_account_owner: Account Owner
-  field_customer_account_name: Apple Inc.
+  field_customer_account_name: Account Name
   field_customer_arn: Account Reference Number (ARN)
+  field_customer_contact_name: Contact Name
+  field_customer_account_executive: Account Executive
+  field_customer_industry: Industry
+  field_customer_city: City
   notice_successful_save: Saved
   notice_unsuccessful_save: Could not save

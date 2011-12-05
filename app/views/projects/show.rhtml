@@ -18,7 +18,8 @@
   <% end %>
 	<% @project.visible_custom_field_values.each do |custom_value| %>
 	<% if !custom_value.value.blank? %>
-	   <li><%= custom_value.custom_field.name%>: <%=h show_value(custom_value) %></li>
+	   <li><%= custom_value.custom_field.name%>: <%= custom_value.value %></li>
+	   <li>Warranty Until: <%= Date.strptime(custom_value.value, "%Y-%m-%d") + 90.days %></li>
 	<% end %>
 	<% end %>
 	</ul>	
